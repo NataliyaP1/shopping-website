@@ -1,0 +1,31 @@
+.store .content{
+display:flex;
+justify-content: space-around;
+
+}
+
+.card{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card-text{
+    flex-grow: 3;
+    min-height:11rem;
+}
+
+.card > *{
+    flex-grow: 1;
+
+}
+
+nav{
+    background-color: aliceblue;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+
+}
+
