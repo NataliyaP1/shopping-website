@@ -30,7 +30,7 @@
         <form action="index.html" method="post" id="login" class="login">
             <fieldset class="centered">
                 <legend>
-                    Register
+                    <h2>Register</h2>
                 </legend>
                 <label>
                     User Name:
@@ -42,7 +42,7 @@
                 </label>
                 <label>
                     Password:
-                    <input name="password" class="password" id="password" type="text" placeholder="Password">
+                    <input name="password" class="password" id="password" type="password" placeholder="Password">
                 </label>
                 <label>
                     Confirm Password:
@@ -50,14 +50,15 @@
                         placeholder="Confirm Password">
                 </label>
                 <label>
-                   How Did You Hear About Us?
-                    <input type="radio" id="insta" name="insta" value="insta" ><label for="insta">Instagram</label>
-                    <input type="radio" id="x" name="x" value="x"><label for="x">Twitter</label>
-                    <input type="radio" id="Tiktok" name="Tiktok" value="Tiktok" ><label for="Tiktok">Tiktok</label>
-                    <input type="radio" id="f.o.f" name="f.o.f" value="f.o.f" ><label for="f.o.f">Family/Friend</label>
-                    <input type="radio" id="other" name="other" value="other" ><label for="other">Other</label>
+                   How Did You Hear About Us? 
+                   <br>
+                    <input type="radio" id="platform" name="question" value="insta" required><label for="insta">Instagram</label>
+                    <input type="radio" id="platform" name="question" value="x"><label for="x" required>Twitter</label>
+                    <input type="radio" id="platform" name="question" value="Tiktok" required><label for="Tiktok">Tiktok</label>
+                    <input type="radio" id="platform" name="question" value="f.o.f" required><label for="f.o.f">Family/Friend</label>
+                    <input type="radio" id="platform" name="question" value="other" required><label for="other">Other</label>
                 </label>
-                <input type="submit" value="Register">
+               <input class="submit" type="submit" value="Register">
             </fieldset>
         </form>
     </div>
