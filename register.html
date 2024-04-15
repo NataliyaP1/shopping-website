@@ -15,17 +15,17 @@
 </head>
 
 <body>
-    <header>
-        Register
-        <br>
-        <nav class="nav-bar">
-        <a href="index.html">Home</a>
-        <a href="store.html">Shop</a>
-        <a href="login.html">Login</a>
-        <a href="register.html">Register</a>
-        <a href="cart.html">Cart</a>
-        </nav>
-    </header>
+    <nav class="main">
+        <div class="logo">
+            <a href="index.html"><img src="./images/logo.png" alt="logo"></a>
+        </div>
+    <a href="index.html" class="pages">Home</a>    
+    <a href="store.html" class="pages">Shop</a>     
+    <a href="login.html" class="pages">Login</a>       
+    <a href="register.html" class="pages">Register</a>
+    <a href="cart.html" class="cart"><img src="./images/cart.png"></a>
+    
+    </nav>
     <div class="dialogs">
         <form action="index.html" method="post" id="login" class="login">
             <fieldset class="centered">
@@ -49,11 +49,25 @@
                     <input name="password2" class="password2" id="password2" type="password"
                         placeholder="Confirm Password">
                 </label>
+                <label>
+                   How Did You Hear About Us?
+                    <input type="radio" id="insta" name="insta" value="insta" ><label for="insta">Instagram</label>
+                    <input type="radio" id="x" name="x" value="x"><label for="x">Twitter</label>
+                    <input type="radio" id="Tiktok" name="Tiktok" value="Tiktok" ><label for="Tiktok">Tiktok</label>
+                    <input type="radio" id="f.o.f" name="f.o.f" value="f.o.f" ><label for="f.o.f">Family/Friend</label>
+                    <input type="radio" id="other" name="other" value="other" ><label for="other">Other</label>
+                </label>
                 <input type="submit" value="Register">
             </fieldset>
         </form>
     </div>
-<footer>&copy2024</footer>
+</div>
+<footer>&copy;2024
+    <br> Contact Us<br>
+    Phone:
+    Email:
+
+</footer>
 
 </body>
 
