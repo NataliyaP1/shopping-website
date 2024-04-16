@@ -177,3 +177,46 @@ height:29rem;
 .price{
     font-size:19px;
 }
+
+.incart{
+    margin:80px;
+    padding:30rem;
+}
+
+.cartimg{
+    width: 60px;
+    height: auto;
+}
+
+.table{
+    font-size:20px;
+}
+
+.headings{
+    text-decoration: underline;
+    font-size: 26px;
+
+}
+
+.container{
+    margin:35px;
+    padding: 70px;
+    border: rgba(0, 0, 0, 0.753) solid 3px;
+    box-shadow: 1vw 1vw #e90707be;
+    border-radius: 2vw;
+    margin: 50px 200px 200px 170px;
+    padding:50px 100px 150px 50px;
+}
+
+.btn-primary{
+    background-color:rgb(145, 21, 21);
+    font-size:25px;
+    float: right;
+    margin-top:70px;
+    margin-right: -40px;
+}
+.btn-primary:hover{
+    color:black;
+    background-color:white;
+    border: black solid 1px;
+}
