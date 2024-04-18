@@ -22,15 +22,13 @@
         <a href="store.html" class="pages">Shop</a>
         <a href="login.html" class="pages">Login</a>
         <a href="register.html" class="pages">Register</a>
-        <a href="cart.html" class="cart"><img src="./images/cart.png"></a>
+        <a href="cart.html" class="cart"><img src="./images/cart.png" alt="cartimg"></a>
 
     </nav>
     <div class="dialogs">
         <form action="index.html" method="post" id="login" class="login">
-            <fieldset class="centered"></fieldset>
-            <legend>
-                <h2>Login</h2>
-            </legend>
+            <fieldset class="centered">
+                <h2>Login</h2>      
             <label>
                 User Name:
                 <input name="Username" class="username" id="username" type="text" placeholder="User Name" required>
@@ -39,12 +37,16 @@
                 Password:
                 <input name="password" class="password" id="password" type="password" placeholder="Password" required>
             </label>
+            <label>
+                <input type="checkbox">
+                Remember Me
+            </label>
             <br>
             <input class="submit" type="submit" value="Login" id="register">
             </fieldset>
         </form>
     </div>
-    </div>
+    
     <footer>&copy;2024
         <br> Contact Us<br>
         Phone: xxx-xxx-xxxx

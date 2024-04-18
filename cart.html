@@ -16,16 +16,17 @@
 <body>
     <nav class="main">
         <div class="logo">
-            <a href="index.html"><strong class="title2">On The Record</strong><img src="./images/logo.png" alt="logo"></a>
+            <a href="index.html"><strong class="title2">On The Record</strong><img src="./images/logo.png"
+                    alt="logo"></a>
         </div>
         <a href="index.html" class="pages">Home</a>
         <a href="store.html" class="pages">Shop</a>
         <a href="login.html" class="pages">Login</a>
         <a href="register.html" class="pages">Register</a>
-        <a href="cart.html" class="cart"><img src="./images/cart.png"></a>
+        <a href="cart.html" class="cart"><img src="./images/cart.png" alt="cartimg"></a>
 
     </nav>
-    </div>
+
     <div class="content">
         <div class="container" style="width:80rem;">
             <h1 class="shop">Cart</h1>
@@ -56,78 +57,80 @@
                 </tr>
                 <tr>
                     <td>3</td>
-                <td></td>
-                    <td><b>Total:</td>
-                    <td><b>$114.97</td>
+                    <td></td>
+                    <td><b>Total:</b></td>
+                    <td><b>$114.97</b></td>
                 </tr>
             </table>
         </div>
     </div>
-    </div>
+
     <div class="content">
         <div class="container2">
             <div class="col-50">
                 <h1>Payment:</h1>
-<fieldset>
-<form action="index.html" method="post" id="" class="checkout">
-                <div class="payment">
-                    <label for="cname">Name on Card:</label>
-                    <input type="text" id="cname" name="cardname" placeholder="John Doe" required>
-                    <label for="ccnum">Credit card number:</label>
-                    <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444" required> 
-                    <label for="expmonth">Exp Month:</label>
-                    <input type="text" id="expmonth" name="expmonth" placeholder="September" required>
+                <fieldset>
+                    <form action="index.html" method="post" class="checkout">
+                        <div class="payment">
+                            <label for="cname">Name on Card:</label>
+                            <input type="text" id="cname" name="cardname" placeholder="John Doe" required>
+                            <label for="ccnum">Credit card number:</label>
+                            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444" required>
+                            <label for="expmonth">Exp Month:</label>
+                            <input type="text" id="expmonth" name="expmonth" placeholder="September" required>
 
-                    <div class="row">
-                        <div class="col-5">
-                            <label for="expyear">Exp Year:</label>
-                            <input type="text" id="expyear" name="expyear" placeholder="2028" required>
-                        </div>
-                        <div class="col">
-                            <label for="cvv">CVV:</label>
-                            <input type="text" id="cvv" name="cvv" placeholder="222" required>
-                            <div class="content">
+                            <div class="row">
+                                <div class="col-5">
+                                    <label for="expyear">Exp Year:</label>
+                                    <input type="text" id="expyear" name="expyear" placeholder="2028" required>
+                                </div>
+                                <div class="col-5">
+                                    <label for="cvv">CVV:</label>
+                                    <input type="text" id="cvv" name="cvv" placeholder="222" required>
+                                    <div class="content">
+                                    </div>
+                                </div>
                             </div>
                         </div>
+                    </form>
+                </fieldset>
+            </div>
+        </div>  
+
+      <div class="content">
+         <div class="container3">
+                <form action="index.html" method="post" class="checkout">
+                    <div class="billing">
+                        <div class="col">
+                            <h1>Billing Address:</h1>
+                            <label for="fname"> Full Name:</label>
+                            <input type="text" id="fname" name="firstname" placeholder="John Doe" required>
+
+                            <label for="email2">Email:</label>
+                            <input type="text" id="email2" name="email2" placeholder="john@example.com" required>
+
+                            <label for="adr">Address:</label>
+                            <input type="text" id="adr" name="address" placeholder="111 W. 14th Street" required>
+
+                            <label for="city">City:</label>
+                            <input type="text" id="city" name="city" placeholder="New York" required>
+
+                            <label for="state">State:</label>
+                            <input type="text" id="state" name="state" placeholder="NY" required>
+
+                            <label for="zip">Zip:</label>
+                            <input type="text" id="zip" name="zip" placeholder="10001" required>
+                            <br>
+                            <input class="submit" type="submit" value="Checkout" id="checkout">
+                        </div>
                     </div>
-                </div>
+                </form>
             </div>
         </div>
     </div>
-    <div class="content">
-        <div class="container3">
-            <div class="col-50">
-    <div class="billing">
-        <div class="col">
-            <legend><h1>Billing Address:</h1></legend>
-            <label for="fname"> Full Name:</label>
-            <input type="text" id="fname" name="firstname" placeholder="John Doe" required>
 
-            <label for="email2"></label> Email:</label>
-            <input type="text" id="email2" name="email2" placeholder="john@example.com" required>
-
-            <label for="adr">Address:</label>
-            <input type="text" id="adr" name="address" placeholder="111 W. 14th Street" required>
-
-            <label for="city">City:</label>
-            <input type="text" id="city" name="city" placeholder="New York" required>
-
-            <label for="state">State:</label>
-            <input type="text" id="state" name="state" placeholder="NY" required>
-
-            <label for="zip">Zip:</label>
-            <input type="text" id="zip" name="zip" placeholder="10001" required>
-            <br>
-            <input class="submit" type="submit" value="Checkout" id="checkout">
-</form>
-        </div>
-    </div>
-    </div>
-    </div>
-    </div>
-    </div>
-   
-    <footer>&copy;2024
+    <footer>
+        &copy;2024
         <br> Contact Us<br>
         Phone: xxx-xxx-xxxx
         <br>
