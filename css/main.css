@@ -1,35 +1,26 @@
-@media screen and (min-width:1024px) {}
-
-@media screen and (min-width:767px) and (max-width:1023px) {
-
-    h1 {
-        font-size: 12px;
+@media (max-width:480px) {
+    .card-body {
+        margin: 2px;
+        font-size: 10px;
     }
-}
 
+    .card-title {
+        font-size: 15px;
+    }
 
+    .price {
+        font-size: 10px;
+    }
 
+    .content {
+        font-size: 30px;
+    }
 
-.store .content {
-    display: flex;
-    justify-content: space-around;
-
-
-}
-
-.card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.card-text {
-    flex-grow: 3;
-    min-height: 11rem;
-}
-
-.card>* {
-    flex-grow: 1;
+    .btn-primary {
+        background-color: rgb(145, 21, 21);
+        padding-bottom: 8px;
+        margin: 9px;
+    }
 
 }
 
@@ -71,20 +62,24 @@ header {
     color: white;
     text-align: center;
     top: 40%;
-    left: 300px;
-    position: absolute;
+    left: 17%;
+    position:absolute;
     font-size: 150px;
     text-shadow: 6px 9px #00000052, 0 10px 10px #610600e0;
 
 }
 
 .logo img {
-    float: left;
-    width: 90px;
     height: auto;
     margin-left: -40px;
-    margin-top: 9px;
+    margin-top: 16px;
     position: static;
+    float:left;
+    -webkit-animation: spin 0.6s linear infinite;
+}
+
+@-webkit-keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
 }
 
 
@@ -105,9 +100,11 @@ footer {
     font-size: 20px;
     margin: 100px 800px 100px 60px;
     padding: 50px;
-    border: 3px solid rgba(206, 13, 13, 0.753);
+    border: rgba(0, 0, 0, 0.753) solid 3px;
+    box-shadow: 1vw 1vw #000000be;
     border-radius: 2vw;
-    object-fit:fill;
+    object-fit: fill;
+    background-color: white;
 }
 
 h2 {
@@ -120,23 +117,23 @@ h2 {
     right: 100px;
     top: 900px;
     max-width: 500px;
-    width:100%;
+    width: 100%;
     object-fit: contain;
 }
 
 .dialogs {
     font-size: 20px;
     margin: auto;
-    margin-bottom: 200px;
-    margin-left:200px;
-    margin-right:200px;
-    margin-top:100px;
-    padding: 50px 100px 50px 50px ;
+    margin-bottom: 300px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+    padding: 50px 100px 50px 50px;
     border: 3px solid rgba(0, 0, 0, 0.753);
     border-radius: 2vw;
     background-color: rgb(255, 255, 255);
-    box-shadow: 1vw 1vw #e90707be;
-    
+    box-shadow: 1vw 1vw #000000be;
+
 }
 
 label {
@@ -168,12 +165,12 @@ label {
 
 .card {
 
-    margin: 75px;
-    float: left;
-    left: 7%;
+    margin: 60px;
     box-shadow: 1vw 1vw 1vw #491e1ebe;
     height: 29rem;
-
+    right: -10%;
+    padding-top: 5px;
+    padding-bottom: 1px;
 }
 
 .shop {
@@ -181,6 +178,17 @@ label {
     font-size: 50px;
     top: -80px;
     padding-bottom: 40px;
+}
+
+.store-title {
+
+    font-size: 35px;
+    text-decoration: underline;
+    padding: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(145, 21, 21);
+    ;
+    color: white;
 }
 
 .price {
@@ -213,9 +221,11 @@ label {
     margin: 35px;
     padding: 70px;
     border: rgba(0, 0, 0, 0.753) solid 3px;
-    box-shadow: 1vw 1vw #e90707be;
+    box-shadow: 1vw 1vw #000000be;
     border-radius: 2vw;
     margin: 30px auto;
+    background-color: white;
+
 }
 
 .btn-primary2 {
@@ -236,21 +246,24 @@ label {
 
 .container2 {
     border: rgba(0, 0, 0, 0.753) solid 3px;
-    box-shadow: 1vw 1vw #e90707be;
+    box-shadow: 1vw 1vw #000000be;
     border-radius: 2vw;
-    margin: 50px 120px 100px 170px;
-    padding: 50px 100px 150px 50px;
+    margin: 50px 150px 10px 150px;
+    padding: 70px;
     font-size: 23px;
-    text-align: left;
+    background-color: white;
+    right:100px;
 }
 
 .container3 {
     border: rgba(0, 0, 0, 0.753) solid 3px;
-    box-shadow: 1vw 1vw #e90707be;
+    box-shadow: 1vw 1vw #000000be;
     border-radius: 2vw;
-    margin: 50px 122px 200px 170px;
-    padding: 50px 100px 50px 50px;
-    font-size: 20px;
+    margin: 50px 150px 100px 150px;
+    padding: 70px;
+    font-size: 21px;
+    background-color: white;
+
 }
 
 .btn-primary2 {
@@ -260,36 +273,36 @@ label {
     left: -50%;
 }
 
-.title2{
-    font-size:40px
+.title2 {
+    font-size: 40px
 }
 
-#checkout{
+#checkout {
     background-color: rgb(145, 21, 21);
-    font-size: 40px;
+    font-size: 25px;
     color: white;
     padding: 20px 90px;
-    margin-left:800px;
     margin-top: 30px;
-    border:none;
+    border: none;
     border-radius: 3vw;
 }
 
-.btn-primary{
+.btn-primary {
     background-color: rgb(145, 21, 21);
     padding: 8px 74px;
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
     color: black;
     background-color: white;
     border: black solid 1px;
 
 }
-@media (max-width: 800px) {
-  
-    .col-25 {
-        margin-bottom: 20px;
-    }
 
+.b-img {
+    background-image: url(/images/wallpaper.jpg);
+    background-color: rgb(214, 209, 198);
+    height: 50vh;
+    min-height: 1074px;
+    background-size: contain;
 }
